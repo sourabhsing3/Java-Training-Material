@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdd925bb-c48f-464e-a2c9-677a7c96bec6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../spring-core-examples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-core-examples/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/HelloSpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/HelloSpringMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/bean/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/bean/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/bean/BeanInstantiationInstanceFactoryEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/bean/BeanInstantiationInstanceFactoryEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/bean/GreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/bean/GreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/injection/CollectionInjectionEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/injection/CollectionInjectionEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-core-examples/src/main/resources/beans-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-core-examples/src/main/resources/beans-config.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2E6zjxGUCvyyxjAuCuKCuUaIMsF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdd925bb-c48f-464e-a2c9-677a7c96bec6" name="Default Changelist" comment="" />
+      <created>1661930960917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661930960917</updated>
+      <workItem from="1661930967276" duration="3364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="297" y="153" key="run.anything.popup" timestamp="1661934025806">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1661934025806" />
+  </component>
+</project>

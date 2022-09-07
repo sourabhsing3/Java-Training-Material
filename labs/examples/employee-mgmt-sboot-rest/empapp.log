@@ -1,0 +1,80 @@
+2022-09-07 10:21:24.155  INFO 2120 --- [restartedMain] c.e.e.EmployeeMgmtSbootRestApplication   : Starting EmployeeMgmtSbootRestApplication using Java 1.8.0_202 on INL20-IAAABIGA with PID 2120 (C:\Training\homecredit_java-fullstack\labs\examples\employee-mgmt-sboot-rest\target\classes started by SOURABH.SINGH in C:\Training\homecredit_java-fullstack\labs\examples\employee-mgmt-sboot-rest)
+2022-09-07 10:21:24.171 DEBUG 2120 --- [restartedMain] c.e.e.EmployeeMgmtSbootRestApplication   : Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-07 10:21:24.171  INFO 2120 --- [restartedMain] c.e.e.EmployeeMgmtSbootRestApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-09-07 10:21:24.256  INFO 2120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-07 10:21:24.256  INFO 2120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-07 10:21:25.204  INFO 2120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-07 10:21:25.258  INFO 2120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2022-09-07 10:21:25.790  INFO 2120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-07 10:21:25.805  INFO 2120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-07 10:21:25.805  INFO 2120 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 10:21:25.921  INFO 2120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-07 10:21:25.921  INFO 2120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1665 ms
+2022-09-07 10:21:26.006  INFO 2120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-07 10:21:26.407  INFO 2120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-07 10:21:26.407  INFO 2120 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:a1417c57-ebd1-4b8a-aed8-e749c6447990'
+2022-09-07 10:21:26.507  INFO 2120 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-07 10:21:26.560  INFO 2120 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-07 10:21:26.693  INFO 2120 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-07 10:21:26.792  INFO 2120 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-07 10:21:27.463  INFO 2120 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-07 10:21:27.478  INFO 2120 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-07 10:21:27.747  WARN 2120 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-07 10:21:28.148  WARN 2120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-09-07 10:21:28.148  INFO 2120 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-07 10:21:28.164  WARN 2120 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-09-07 10:21:28.180  INFO 2120 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-07 10:21:28.180  INFO 2120 --- [restartedMain] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-09-07 10:21:28.380  WARN 2120 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-09-07 10:21:28.380  INFO 2120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-07 10:21:28.380  INFO 2120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-07 10:21:28.380  INFO 2120 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-07 10:21:28.395  INFO 2120 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-07 10:21:28.449 ERROR 2120 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-09-07 10:21:57.297  INFO 20560 --- [restartedMain] c.e.e.EmployeeMgmtSbootRestApplication   : Starting EmployeeMgmtSbootRestApplication using Java 1.8.0_202 on INL20-IAAABIGA with PID 20560 (C:\Training\homecredit_java-fullstack\labs\examples\employee-mgmt-sboot-rest\target\classes started by SOURABH.SINGH in C:\Training\homecredit_java-fullstack\labs\examples\employee-mgmt-sboot-rest)
+2022-09-07 10:21:57.297 DEBUG 20560 --- [restartedMain] c.e.e.EmployeeMgmtSbootRestApplication   : Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-07 10:21:57.297  INFO 20560 --- [restartedMain] c.e.e.EmployeeMgmtSbootRestApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-09-07 10:21:57.350  INFO 20560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-07 10:21:57.350  INFO 20560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-07 10:21:58.152  INFO 20560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-07 10:21:58.198  INFO 20560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2022-09-07 10:21:58.716  INFO 20560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-07 10:21:58.716  INFO 20560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-07 10:21:58.716  INFO 20560 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 10:21:58.833  INFO 20560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-07 10:21:58.833  INFO 20560 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1483 ms
+2022-09-07 10:21:58.931  INFO 20560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-07 10:21:59.101  INFO 20560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-07 10:21:59.101  INFO 20560 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d07e777a-c326-49bf-b124-6bdb3a9b4e81'
+2022-09-07 10:21:59.202  INFO 20560 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-07 10:21:59.254  INFO 20560 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-07 10:21:59.368  INFO 20560 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-07 10:21:59.454  INFO 20560 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-07 10:21:59.971  INFO 20560 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-07 10:21:59.971  INFO 20560 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-07 10:22:00.234  WARN 20560 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-07 10:22:00.635  WARN 20560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-09-07 10:22:00.635  INFO 20560 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-07 10:22:00.673  INFO 20560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-07 10:22:00.688  INFO 20560 --- [restartedMain] c.e.e.EmployeeMgmtSbootRestApplication   : Started EmployeeMgmtSbootRestApplication in 3.782 seconds (JVM running for 5.024)
+2022-09-07 10:22:31.743  INFO 20560 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 10:22:31.744  INFO 20560 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-07 10:22:31.745  INFO 20560 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-07 10:25:33.179  WARN 20560 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.examples.empapp.model.ResponseMessage com.examples.empapp.controller.EmployeeController.createEmployee(com.examples.empapp.model.Employee) throws com.examples.empapp.exception.ApplicationException: [Field error in object 'employee' on field 'age': rejected value [12]; codes [Min.employee.age,Min.age,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.age,age]; arguments []; default message [age],20]; default message [Age can't be less that 20.]] ]
+2022-09-07 10:26:27.040  WARN 20560 --- [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.examples.empapp.model.ResponseMessage com.examples.empapp.controller.EmployeeController.createEmployee(com.examples.empapp.model.Employee) throws com.examples.empapp.exception.ApplicationException: [Field error in object 'employee' on field 'age': rejected value [12]; codes [Min.employee.age,Min.age,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.age,age]; arguments []; default message [age],20]; default message [Age can't be less that 20.]] ]
+2022-09-07 10:26:35.984  WARN 20560 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.examples.empapp.model.ResponseMessage com.examples.empapp.controller.EmployeeController.createEmployee(com.examples.empapp.model.Employee) throws com.examples.empapp.exception.ApplicationException: [Field error in object 'employee' on field 'age': rejected value [82]; codes [Max.employee.age,Max.age,Max.int,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.age,age]; arguments []; default message [age],60]; default message [Age can't be more than 60.]] ]
